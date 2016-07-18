@@ -1,11 +1,11 @@
 Gem::Specification.new do |spec|
-  spec.name          = "fluent-plugin-prometheus"
+  spec.name          = "fluent-plugin-prometheus-thread"
   spec.version       = "0.1.3"
-  spec.authors       = ["Masahiro Sano"]
-  spec.email         = ["sabottenda@gmail.com"]
-  spec.summary       = %q{A fluent plugin that collects metrics and exposes for Prometheus.}
-  spec.description   = %q{A fluent plugin that collects metrics and exposes for Prometheus.}
-  spec.homepage      = "https://github.com/kazegusuri/fluent-plugin-prometheus"
+  spec.authors       = ["Masahiro Sano", "James Harlow"]
+  spec.email         = ["sabottenda@gmail.com", "j+ruby-gems@thread.com"]
+  spec.summary       = %q{A td-agent plugin that collects metrics and exposes for Prometheus.}
+  spec.description   = %q{A td-agent plugin that collects metrics and exposes for Prometheus.}
+  spec.homepage      = "https://github.com/hythloday/fluent-plugin-prometheus"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0")
